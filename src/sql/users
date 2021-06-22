@@ -1,0 +1,9 @@
+CREATE TABLE users(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    pass VARCHAR(255) NOT NULL
+    )
+
+INSERT INTO users(email,nome,pass)
+VALUES ('gabriel.ahlert@hotmail.com','Gabriel Ahlert','gabri2000')
